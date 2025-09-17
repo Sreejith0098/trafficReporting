@@ -1,0 +1,5 @@
+# This requirements.txt sets up Django, SQLAlchemy, and SQLite support
+Django>=4.2
+SQLAlchemy>=2.0
+django-cors-headers
+werkzeug
