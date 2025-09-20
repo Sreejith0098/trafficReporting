@@ -50,7 +50,7 @@ const Login = () => {
   };
   return (
     <div className="login-div">
-      <div className="login-card">
+      <div  className="login-card">
         <h1 className="login-title"> Login</h1>
         <form className="login-form" onSubmit={handleSubmit}>
           <input

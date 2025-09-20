@@ -29,6 +29,7 @@ const AdminDashboard = () => {
 		const [open, setOpen] = useState(false);
 		const { selected, setSelected } = useOutletContext();
 
+		
 		useEffect(() => {
 			if (selected === 'users') {
 				fetchUsers();
