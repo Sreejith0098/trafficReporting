@@ -6,6 +6,7 @@ import DashboardIcon from '@mui/icons-material/Dashboard';
 
 
 const Sidebar = ({ selected, setSelected }) => (
+  
   <Box
     sx={{
       width: 280,

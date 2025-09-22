@@ -89,6 +89,7 @@ const Footer = () => (
               </Link>
             </Tooltip>
             <Tooltip title="Contact us" arrow placement="right">
+              
               <Link
                 component={RouterLink}
                 to="/contact"
